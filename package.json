@@ -1,0 +1,23 @@
+{
+  "name": "p-ing",
+  "version": "1.0.0",
+  "description": "get promises flow from callback pattern",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cereceres/promisying.git"
+  },
+  "keywords": [
+    "promise",
+    "callback"
+  ],
+  "author": "Jesus Cereceres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cereceres/promisying/issues"
+  },
+  "homepage": "https://github.com/Cereceres/promisying#readme"
+}
