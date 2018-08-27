@@ -1,10 +1,10 @@
-# p-ing
-module to p-ing a function
+# p-fying
+module to p-fying a function
 # usage
 
 ```js
 async () => {
-    const promised = pIng((param, cb)=>{
+    const promised = pFying((param, cb)=>{
         assert(param === 'param');
         cb('error')
     })
