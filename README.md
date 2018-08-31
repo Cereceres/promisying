@@ -1,5 +1,5 @@
-# p-fying
-module to p-fying a function
+# fying-promises
+module to promisify a function
 # usage
 
 ```js
@@ -8,8 +8,12 @@ async () => {
         assert(param === 'param');
         cb('error')
     })
-
     const error = await promised('param').catch(error=>error)
     assert(error==='error');
 }
 ```
+
+
+# API
+
+## pfying(Function) => Function
